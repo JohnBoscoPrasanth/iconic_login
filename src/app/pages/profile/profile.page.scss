@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px gray;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.2s;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 50%;
+  margin: 5px 0;
+}
+
+.title {
+  color: rgb(2, 160, 223);
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.company-title {
+  color: rgb(255, 61, 2);
+  font-size: 18px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.about {
+  color: grey;
+  font-size: 14px;
+}
+
+.social-media {
+  margin: 40px 0;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #4caf50;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 2px -2px gray;
+  flex-shrink: 0;
+}
