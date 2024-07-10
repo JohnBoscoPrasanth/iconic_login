@@ -12,13 +12,19 @@
   margin-bottom: 20px;
 }
 
+.bar {
+  width: 24px;
+  height: 30px;
+  margin-left: 14px;
+}
+
 .phone-input-container {
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   width: 100%;
 }
 
@@ -41,6 +47,7 @@
   font-size: 18px;
   flex: 1;
   background-color: #fff;
+  color: black;
 }
 
 .info-text {

@@ -5,7 +5,8 @@
       <img src="assets/india.png" alt="Country Flag" class="country-flag">
       <span>+91</span>
     </div>
-    <input type="text" placeholder="| " class="phone-number-input">
-  </div> <br><br><br>
+    <img src="assets/bar.png" alt="bar" class="bar">
+    <input type="text" placeholder="" class="phone-number-input" (input)="validatePhoneNumber($event)">
+  </div>
   <p class="info-text">You will receive an SMS with a verification code</p>
 </div>
